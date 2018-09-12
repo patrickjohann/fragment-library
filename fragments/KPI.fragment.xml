@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<core:FragmentDefinition 
+    xmlns:core="sap.ui.core" 
+    xmlns:mvc="sap.ui.core.mvc" 
+    xmlns="sap.m">
+    <HBox id="ttsKPIValueBox" class="ttsKPI">
+        <VBox>
+            <Label class="largeNumber identifier" text="{/BaseValue}" />
+            <Label class="identifier" text="{/OfText}" />
+            <Label class="identifier" text="{/TotalValue}" />
+        </VBox>
+        <VBox>
+            <Label class="infoText" text="{/Description}" />
+        </VBox>
+    </HBox>
+</core:FragmentDefinition>

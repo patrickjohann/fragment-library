@@ -1,0 +1,11 @@
+<core:FragmentDefinition 
+    xmlns:core="sap.ui.core" 
+    xmlns:mvc="sap.ui.core.mvc" 
+    xmlns="sap.m">
+    <HBox items="{/}" class="ttsObjectBreadCrumb" templateShareable="false">
+        <HBox>
+            <VBox class="ttsVerticalRule"></VBox>
+            <core:Fragment fragmentName="com.tts.hcm.view.fragments.ObjectStatusListItem" type="XML" />
+        </HBox>
+    </HBox>
+</core:FragmentDefinition>

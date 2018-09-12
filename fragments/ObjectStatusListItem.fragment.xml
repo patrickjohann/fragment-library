@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<core:FragmentDefinition 
+    xmlns:core="sap.ui.core" 
+    xmlns:mvc="sap.ui.core.mvc" 
+    xmlns="sap.m">
+    <StandardListItem 
+    description="{_Text}" 
+    title="{_Title}" 
+    type="{_Type}" 
+    press="onListItemPressed" 
+    class="ttsObjectStatusListItem"
+    tooltip="{_StatusDescription}"
+    icon="{path: '_Status', formatter: 'com.tts.hcm.model.Formatter.getIconByStatus'}">
+        <customData>
+            <core:CustomData 
+            writeToDom="true" 
+            key="class" 
+            value="{= ${_Status} ? ${_Status}.toUpperCase() : 'waiting' }" />
+        </customData>
+    </StandardListItem>
+</core:FragmentDefinition>

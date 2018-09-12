@@ -1,0 +1,23 @@
+{
+  "name": "tts-ui5-controls",
+  "version": "1.0.0",
+  "description": "custom controls and fragments for ui5 ",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrickjohann/fragment-library.git"
+  },
+  "keywords": [
+    "tts",
+    "XMLFragment",
+    "ui5"
+  ],
+  "author": "tts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patrickjohann/fragment-library/issues"
+  },
+  "homepage": "https://github.com/patrickjohann/fragment-library#readme"
+}

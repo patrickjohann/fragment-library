@@ -1,0 +1,11 @@
+<core:FragmentDefinition 
+	xmlns="sap.m" 
+	xmlns:core="sap.ui.core">
+	<QuickView class="ttsQuickView">
+		<QuickViewPage title="{/Title}" titleUrl="{/Link}" description="{/Description}">
+			<QuickViewGroup elements="{/Attributes/}">
+				<QuickViewGroupElement label="{Label}" value="{Value}" />
+			</QuickViewGroup>
+		</QuickViewPage>
+	</QuickView>
+</core:FragmentDefinition>
